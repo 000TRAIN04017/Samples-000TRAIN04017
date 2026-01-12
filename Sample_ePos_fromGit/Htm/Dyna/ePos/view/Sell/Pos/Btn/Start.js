@@ -220,10 +220,10 @@ Ext.define('ePos.view.Sell.Pos.Btn.Start', {
 					smsHelp: 'usersV4:Home/Help.htm',
 					flex: 1,
 					itemId: 'FCT716ITM10',
-					userCls: 'sms-btn-red',
+					userCls: 'sms-btn-lightblue',
 					text: 'Grocery',
 					iconAlign: 'left',
-					scale: 'large'
+					scale: 'small'
 				},
 				{
 					xtype: 'button',
