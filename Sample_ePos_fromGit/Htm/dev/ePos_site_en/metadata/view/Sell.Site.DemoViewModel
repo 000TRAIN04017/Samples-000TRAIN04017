@@ -1,0 +1,115 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "sell.site.demo",
+        "designer|userClassName": "Sell.Site.DemoViewModel"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "designerId": "a2869e16-aea6-4776-aa76-6c0a6b794859",
+    "cn": [
+        {
+            "type": "Ext.data.Store",
+            "reference": {
+                "name": "stores",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "siteDemoNumberEntry"
+            },
+            "configAlternates": {
+                "name": "string"
+            },
+            "name": "MyStore",
+            "designerId": "5f67426a-8a47-4f7e-a9de-0466b69764cf",
+            "cn": [
+                {
+                    "type": "Ext.data.proxy.Ajax",
+                    "reference": {
+                        "name": "proxy",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "name": "MyAjaxProxy",
+                    "designerId": "87e74825-5140-4acd-b76c-81e3e9513820",
+                    "cn": [
+                        {
+                            "type": "Ext.data.reader.Xml",
+                            "reference": {
+                                "name": "reader",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "record": "record",
+                                "rootProperty": "data"
+                            },
+                            "configAlternates": {
+                                "record": "string",
+                                "rootProperty": "string"
+                            },
+                            "name": "MyXmlReader",
+                            "designerId": "7b12d968-6c67-473a-b603-bd2f8fce662f"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.data.field.String",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "F1126"
+                    },
+                    "configAlternates": {
+                        "name": "string"
+                    },
+                    "name": "MyString",
+                    "designerId": "98e64a6c-78d1-4b4e-acf1-9718b1faaff4"
+                },
+                {
+                    "type": "Ext.data.field.String",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "F1127"
+                    },
+                    "configAlternates": {
+                        "name": "string"
+                    },
+                    "name": "MyString1",
+                    "designerId": "622a8a3e-8fba-4908-a693-4391877c668e"
+                },
+                {
+                    "type": "Ext.data.field.String",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "F253"
+                    },
+                    "configAlternates": {
+                        "name": "string"
+                    },
+                    "name": "MyString2",
+                    "designerId": "74ed0794-9730-4595-925e-ad2826f2c92f"
+                }
+            ]
+        }
+    ]
+}

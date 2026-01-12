@@ -1,0 +1,114 @@
+//Examples of style customizations for ePos 4.61
+.sms-desktop {
+    background: $site-color-loc-bg;
+}
+
+//Default buttons color
+.x-btn-default-small {
+    background-image: $site-color-lightblue;
+}
+
+.x-btn-default-medium {
+    background-image: $site-color-lightblue;
+}
+
+.x-btn-default-large {
+    background-image: $site-color-lightblue;
+}
+
+//Buttons editor details
+.sms-editor-win {    
+    .x-btn-default-small {
+        background-color: $sms-color-lightblue !important;    
+    }
+
+    .edit-tool {
+        background-color: #dadada !important;
+    }
+
+    .sms-btn-lightpurple {
+        background-image: $site-color-lightpurple !important;
+        .x-btn-icon-el {
+            color:$sms-icons-color;
+        }
+    }
+
+    .sms-btn-orange {
+        background-image: $site-color-orange !important;
+        .x-btn-icon-el {
+            color:$sms-icons-color;
+        }
+    }
+
+    .sms-btn-red {
+        background-image: $site-color-red !important;
+        .x-btn-icon-el {
+            color:$sms-icons-color;
+        }
+    }
+    
+    .sms-btn-lightblue {
+        background-image: $site-color-lightblue !important;
+    }
+    
+    .sms-btn-green {    
+        background-image: $site-color-green !important;
+    }
+    
+    .sms-btn-darkblue {
+        background-image: $site-color-darkblue !important;
+    }    
+}
+
+//Redefine colors
+.sms-btn-lightpurple {
+    background: $site-color-lightpurple;
+    .x-btn-icon-el {
+        color:$sms-icons-color;
+    }
+}
+
+.sms-btn-orange {
+    background: $site-color-orange;
+    .x-btn-icon-el {
+        color:$sms-icons-color;
+    }
+}
+
+.sms-btn-red {
+    background: $site-color-red;
+    .x-btn-icon-el {
+        color:$sms-icons-color;
+    }
+}
+
+.sms-btn-lightblue {
+    background: $site-color-lightblue;
+}
+
+.sms-btn-green {    
+    background: $site-color-green;
+}
+
+.sms-btn-darkblue {
+    background: $site-color-darkblue;
+}
+
+.sms-entry-kbd-btn .x-btn-default-small { //numeric keypad
+    background: linear-gradient(45deg, transparent, #bbb);
+}
+
+.sms-entry-kbd-btn .sms-entry-fct-btn { //numeric keypad, function buttons
+    background: linear-gradient(45deg, #777, transparent);
+}
+
+.site-epos-trs-detail-pnl {
+    background: url("/Bitmaps/Logo_detail.png"), linear-gradient(45deg, #d5d5d3, white,  white);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.site-btn-background {
+    background: linear-gradient(45deg, #d5d5d3, white,  white, #d5d5d3);
+}
+

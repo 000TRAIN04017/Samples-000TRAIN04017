@@ -1,0 +1,2 @@
+/* DISPLAY DEMO POPUP WINDOW */
+@exec(CGI=ePos_sell_site_demo_popup.xml);

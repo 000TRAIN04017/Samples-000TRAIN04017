@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:sms="/office/sms-xsd-form" attributeFormDefault="unqualified" elementFormDefault="qualified">
+	<xs:element name="install">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Sample_ePos_fromGit">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="ePos_fromGit_BTN" sms:label="What type of button pages do you want to use?">
+								<xs:simpleType>
+									<xs:restriction>
+										<xs:enumeration value="RESTO" sms:caption="Bistro"/>
+										<xs:enumeration value="STD" sms:caption="Grocery"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

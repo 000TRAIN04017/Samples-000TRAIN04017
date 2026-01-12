@@ -1,0 +1,402 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "sell.site.demo",
+        "designer|userClassName": "Sell.Site.Demo",
+        "title": "Demo"
+    },
+    "configAlternates": {
+        "designer|userClassName": "string",
+        "extend": "string",
+        "designer|userAlias": "string",
+        "title": "string"
+    },
+    "name": "MyWindow",
+    "designerId": "c5eb4f7e-d3b0-4d55-9c13-debc9aeba903",
+    "viewControllerInstanceId": "6c618871-5a51-4992-bf2e-cf127d6f6ad6",
+    "viewModelInstanceId": "a2869e16-aea6-4776-aa76-6c0a6b794859",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "layout": "vbox",
+                "title": "Agregar detailes de la transacción",
+                "width": 600
+            },
+            "configAlternates": {
+                "title": "string",
+                "container|align": "string",
+                "layout": "string",
+                "width": "auto"
+            },
+            "name": "MyPanel",
+            "designerId": "cc999912-8312-4213-b171-8b11519ad93f",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "center",
+                        "layout": "vbox",
+                        "layout|flex": 1
+                    },
+                    "configAlternates": {
+                        "container|align": "string",
+                        "layout": "string",
+                        "layout|flex": "number"
+                    },
+                    "name": "MyContainer3",
+                    "designerId": "a4bb102d-6ef6-48ad-a5de-c8cc0c5b06e1",
+                    "cn": [
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "middle",
+                                "layout": "hbox",
+                                "layout|flex": 1
+                            },
+                            "configAlternates": {
+                                "container|align": "string",
+                                "layout": "string",
+                                "layout|flex": "number"
+                            },
+                            "name": "MyContainer1",
+                            "designerId": "826a9fb6-d274-4d46-9f4a-f1c2759e51d8",
+                            "cn": [
+                                {
+                                    "type": "Ext.view.View",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "itemSelector": "tr",
+                                        "layout|flex": 1,
+                                        "loadingCls": "sms-loadmask",
+                                        "margin": null,
+                                        "padding": null,
+                                        "scrollable": null,
+                                        "store": [
+                                            "{siteDemoNumberEntry}"
+                                        ]
+                                    },
+                                    "configAlternates": {
+                                        "itemSelector": "string",
+                                        "layout|flex": "number",
+                                        "store": "binding",
+                                        "loadingCls": "string",
+                                        "margin": "auto",
+                                        "padding": "auto",
+                                        "scrollable": "auto"
+                                    },
+                                    "name": "MyView",
+                                    "designerId": "f12b734e-e232-41ee-bc38-17f0d7ec00fe",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.XTemplate",
+                                            "reference": {
+                                                "name": "tpl",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|displayName": "tpl",
+                                                "implHandler": [
+                                                    "<table width=\"100%\" cellpadding=\"5\" >",
+                                                    "\t<tpl for=\".\">",
+                                                    "\t\t<tr>\t",
+                                                    "\t\t\t<td>Operador:</td>",
+                                                    "\t\t\t<td>{F1126} - {F1127}</td>",
+                                                    "\t\t</tr>",
+                                                    "\t</tpl>",
+                                                    "</table>"
+                                                ]
+                                            },
+                                            "configAlternates": {
+                                                "designer|displayName": "string",
+                                                "implHandler": "code"
+                                            },
+                                            "name": "tpl",
+                                            "designerId": "059a3ace-d39b-4718-99d7-e8ca0c3b5e4c"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "center",
+                        "layout": "vbox"
+                    },
+                    "configAlternates": {
+                        "container|align": "string",
+                        "layout": "string"
+                    },
+                    "name": "MyContainer",
+                    "designerId": "45c5c5f7-b331-4f0f-9e32-16aa4c006c8b",
+                    "cn": [
+                        {
+                            "type": "Ext.form.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "html": "<b>Ingrese los detalles para agregar como una línea en la transacción</b>",
+                                "layout|flex": 1,
+                                "layout|margins": null,
+                                "padding": 10,
+                                "text": null
+                            },
+                            "configAlternates": {
+                                "layout|flex": "number",
+                                "text": "string",
+                                "html": "string",
+                                "layout|margins": "string",
+                                "padding": "auto"
+                            },
+                            "name": "MyLabel",
+                            "designerId": "f7b98f5e-796c-4a3d-81a3-a8be3548f362"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": null,
+                                "itemId": "numberEntryTxtFld",
+                                "layout|flex": 1,
+                                "width": 500
+                            },
+                            "configAlternates": {
+                                "fieldLabel": "string",
+                                "itemId": "string",
+                                "layout|flex": "number",
+                                "width": "auto"
+                            },
+                            "name": "MyTextField",
+                            "designerId": "5db929b9-490d-4c3e-90e0-595b1d447225"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "center",
+                        "layout": "vbox",
+                        "layout|flex": 1,
+                        "padding": 10
+                    },
+                    "configAlternates": {
+                        "container|align": "string",
+                        "layout": "string",
+                        "layout|flex": "number",
+                        "padding": "auto"
+                    },
+                    "name": "MyContainer4",
+                    "designerId": "840ccb0d-1f90-4486-acb7-98f2d7849cf7",
+                    "cn": [
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "middle",
+                                "container|padding": null,
+                                "layout": "hbox"
+                            },
+                            "configAlternates": {
+                                "container|align": "string",
+                                "layout": "string",
+                                "container|padding": "auto"
+                            },
+                            "name": "MyContainer2",
+                            "designerId": "cb060c1f-0e89-4cef-8f4a-aa05ae38a941",
+                            "cn": [
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "cls": "sms-btn-green",
+                                        "height": 50,
+                                        "itemId": "btnOk",
+                                        "layout|flex": 1,
+                                        "layout|margins": null,
+                                        "margin": null,
+                                        "padding": null,
+                                        "scale": "medium",
+                                        "text": "Ok",
+                                        "width": 200
+                                    },
+                                    "configAlternates": {
+                                        "itemId": "string",
+                                        "layout|flex": "number",
+                                        "text": "string",
+                                        "cls": "string",
+                                        "height": "auto",
+                                        "layout|margins": "string",
+                                        "margin": "auto",
+                                        "padding": "auto",
+                                        "scale": "string",
+                                        "width": "auto"
+                                    },
+                                    "name": "MyButton",
+                                    "designerId": "b645d8c1-abba-4f6b-aca4-b54451a35c5f",
+                                    "cn": [
+                                        {
+                                            "type": "viewcontrollereventbinding",
+                                            "reference": {
+                                                "name": "listeners",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "fn": "onBtnOkClick",
+                                                "implHandler": [
+                                                    "DemoCtrl.numberEntryFct(button);"
+                                                ],
+                                                "name": "click",
+                                                "scope": "me"
+                                            },
+                                            "configAlternates": {
+                                                "fn": "string",
+                                                "implHandler": "code",
+                                                "name": "string",
+                                                "scope": "string"
+                                            },
+                                            "name": "onBtnOkClick",
+                                            "designerId": "dbc72afa-f10d-4600-9a8a-84d9d2b5aa98"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.container.Container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": 1,
+                                        "width": 20
+                                    },
+                                    "configAlternates": {
+                                        "layout|flex": "number",
+                                        "width": "auto"
+                                    },
+                                    "name": "MyContainer5",
+                                    "designerId": "306e7fee-902b-40ba-bd00-cec2be0960ad"
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "cls": "sms-btn-red",
+                                        "height": 50,
+                                        "itemId": "btnCancel",
+                                        "layout|flex": 1,
+                                        "layout|margins": null,
+                                        "margin": null,
+                                        "padding": null,
+                                        "scale": "medium",
+                                        "text": "Cancel",
+                                        "width": 200
+                                    },
+                                    "configAlternates": {
+                                        "itemId": "string",
+                                        "layout|flex": "number",
+                                        "text": "string",
+                                        "cls": "string",
+                                        "height": "auto",
+                                        "layout|margins": "string",
+                                        "margin": "auto",
+                                        "padding": "auto",
+                                        "scale": "string",
+                                        "width": "auto"
+                                    },
+                                    "name": "MyButton1",
+                                    "designerId": "a4d21556-ff88-4216-bd72-09ea5ffb89f7",
+                                    "cn": [
+                                        {
+                                            "type": "viewcontrollereventbinding",
+                                            "reference": {
+                                                "name": "listeners",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "fn": "onBtnCancelClick",
+                                                "implHandler": [
+                                                    "ExecCtrl.windowClose();"
+                                                ],
+                                                "name": "click",
+                                                "scope": "me"
+                                            },
+                                            "configAlternates": {
+                                                "fn": "string",
+                                                "implHandler": "code",
+                                                "name": "string",
+                                                "scope": "string"
+                                            },
+                                            "name": "onBtnCancelClick",
+                                            "designerId": "d32edba3-8878-48d4-9dc6-aea155d3a94e"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<hooks>
+		<hook>
+			<type>hookExec</type>
+			<alias>SiteDemoPopup</alias>
+			<data>
+				@dbTable(Q1,SELECT F1126,F1127 
+					FROM CLK_TAB 
+					WHERE F1185=@dbHot(CLK,NUM))
+				<dbtable>
+					<record>
+						<F1126>@dbRow(Q1,F1126,#)</F1126>
+						<F1127>@dbRow(Q1,F1127)</F1127>
+						<F253>@DSDF @FMT(T6,@NOW)<F253>
+					</record>
+				</dbtable>
+			</data>
+												
+		</hook>	
+	</hooks>
+</root>

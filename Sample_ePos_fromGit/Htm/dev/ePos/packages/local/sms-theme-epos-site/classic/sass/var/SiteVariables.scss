@@ -1,0 +1,20 @@
+//Example of site colors to use as override on base sms-colors.
+
+//Loc LOGO colors (Hamburger logo)
+$site-color-loc: linear-gradient(#f7d000,#f7d000, transparent,#9b0012,#9b0012,transparent,black,black);
+
+//Circle with a white lozenge the LOC colors for background
+$site-color-loc-bg: linear-gradient(45deg, transparent,transparent, rgb(234, 237, 241) 85%),
+                    linear-gradient(135deg, transparent,transparent, rgb(234, 237, 241) 85%),
+                    linear-gradient(225deg, transparent,transparent, rgb(234, 237, 241) 85%),
+                    linear-gradient(315deg, transparent,transparent, rgb(234, 237, 241) 85%),
+                    $site-color-loc;
+
+//Custom colors mainly used for buttons 3d effect
+$site-color-black: linear-gradient(45deg,$sms-color-black,transparent);
+$site-color-lightpurple: linear-gradient(45deg,lighten($sms-color-purple,20%),lighten($sms-color-purple,10%),lighten($sms-color-purple,10%),lighten($sms-color-purple,20%));
+$site-color-lightblue: linear-gradient(45deg,lighten($sms-color-blue,15%),lighten($sms-color-blue,30%), lighten($sms-color-blue,30%),lighten($sms-color-blue,15%));
+$site-color-green:  linear-gradient(45deg,transparent,lighten($sms-color-green,10%), $sms-color-green, lighten($sms-color-green,10%),transparent);
+$site-color-red: linear-gradient(45deg,lighten($sms-color-red,20%), $sms-color-red, $sms-color-red2, $sms-color-red, lighten($sms-color-red,20%));
+$site-color-orange: linear-gradient(45deg,lighten($sms-color-orange,5%),lighten($sms-color-orange,10%), $sms-color-orange, lighten($sms-color-orange,10%),lighten($sms-color-orange,5%));
+$site-color-darkblue: linear-gradient(45deg,lighten($sms-color-blue,10%),$sms-color-darkblue,$sms-color-darkblue,$sms-color-darkblue,lighten($sms-color-blue,10%));
